@@ -7,6 +7,7 @@ import 'package:weather_app/views/loading.dart';
 void main() {
   runApp(MaterialApp(
     initialRoute: loading,
+    // theme: ThemeData(primarySwatch: Colors.grey),
     routes: {
       home: (context) => const HomeView(),
       chooseLocation: (context) => const ChooseLocation(),
